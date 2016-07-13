@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		605B74761BDDFE5A00393C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B74751BDDFE5A00393C27 /* main.m */; };
 		605B74791BDDFE5A00393C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B74781BDDFE5A00393C27 /* AppDelegate.m */; };
-		605B747C1BDDFE5A00393C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B747B1BDDFE5A00393C27 /* ViewController.m */; };
+		605B747C1BDDFE5A00393C27 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 605B747B1BDDFE5A00393C27 /* ViewController.mm */; };
 		605B747F1BDDFE5A00393C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605B747D1BDDFE5A00393C27 /* Main.storyboard */; };
 		605B74811BDDFE5A00393C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605B74801BDDFE5A00393C27 /* Assets.xcassets */; };
 		605B74841BDDFE5A00393C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605B74821BDDFE5A00393C27 /* LaunchScreen.storyboard */; };
 		605B748F1BDDFE5B00393C27 /* NHSVMTrainProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B748E1BDDFE5B00393C27 /* NHSVMTrainProTests.m */; };
 		605B749A1BDDFE5B00393C27 /* NHSVMTrainProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 605B74991BDDFE5B00393C27 /* NHSVMTrainProUITests.m */; };
+		605B74AF1BDDFEDD00393C27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B74A91BDDFEDD00393C27 /* Default-568h@2x.png */; };
+		605B74B01BDDFEDD00393C27 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B74AA1BDDFEDD00393C27 /* Default.png */; };
+		605B74B11BDDFEDD00393C27 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 605B74AB1BDDFEDD00393C27 /* Default@2x.png */; };
+		605B74B21BDDFEDD00393C27 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605B74AE1BDDFEDD00393C27 /* opencv2.framework */; };
+		605B74B51BDDFF0300393C27 /* svm_train.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 605B74B31BDDFF0300393C27 /* svm_train.cpp */; };
+		605B79111BDE011100393C27 /* Trains.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 605B79101BDE011100393C27 /* Trains.bundle */; };
+		60837FBB1BE2F687009C8CED /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60837FBA1BE2F687009C8CED /* test.jpg */; };
+		60C265A91BE0B724003BCC2E /* NHImgMatTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60C265A81BE0B724003BCC2E /* NHImgMatTool.mm */; };
+		60C265AB1BE0CDB0003BCC2E /* chars_jpg.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60C265AA1BE0CDB0003BCC2E /* chars_jpg.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +49,7 @@
 		605B74771BDDFE5A00393C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		605B74781BDDFE5A00393C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		605B747A1BDDFE5A00393C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		605B747B1BDDFE5A00393C27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		605B747B1BDDFE5A00393C27 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		605B747E1BDDFE5A00393C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		605B74801BDDFE5A00393C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605B74831BDDFE5A00393C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		605B74951BDDFE5B00393C27 /* NHSVMTrainProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHSVMTrainProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		605B74991BDDFE5B00393C27 /* NHSVMTrainProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHSVMTrainProUITests.m; sourceTree = "<group>"; };
 		605B749B1BDDFE5B00393C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605B74A91BDDFEDD00393C27 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		605B74AA1BDDFEDD00393C27 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		605B74AB1BDDFEDD00393C27 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		605B74AE1BDDFEDD00393C27 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		605B74B31BDDFF0300393C27 /* svm_train.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = svm_train.cpp; sourceTree = "<group>"; };
+		605B74B41BDDFF0300393C27 /* svm_train.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = svm_train.hpp; sourceTree = "<group>"; };
+		605B79101BDE011100393C27 /* Trains.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Trains.bundle; sourceTree = "<group>"; };
+		60837FBA1BE2F687009C8CED /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		60C265A71BE0B724003BCC2E /* NHImgMatTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHImgMatTool.h; sourceTree = "<group>"; };
+		60C265A81BE0B724003BCC2E /* NHImgMatTool.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NHImgMatTool.mm; sourceTree = "<group>"; };
+		60C265AA1BE0CDB0003BCC2E /* chars_jpg.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = chars_jpg.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605B74B21BDDFEDD00393C27 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +122,13 @@
 		605B74731BDDFE5A00393C27 /* NHSVMTrainPro */ = {
 			isa = PBXGroup;
 			children = (
+				605B74A81BDDFEDD00393C27 /* Defaults */,
+				605B74AC1BDDFEDD00393C27 /* libs */,
+				605B74A71BDDFEDD00393C27 /* Classes */,
 				605B74771BDDFE5A00393C27 /* AppDelegate.h */,
 				605B74781BDDFE5A00393C27 /* AppDelegate.m */,
 				605B747A1BDDFE5A00393C27 /* ViewController.h */,
-				605B747B1BDDFE5A00393C27 /* ViewController.m */,
+				605B747B1BDDFE5A00393C27 /* ViewController.mm */,
 				605B747D1BDDFE5A00393C27 /* Main.storyboard */,
 				605B74801BDDFE5A00393C27 /* Assets.xcassets */,
 				605B74821BDDFE5A00393C27 /* LaunchScreen.storyboard */,
@@ -117,6 +141,7 @@
 		605B74741BDDFE5A00393C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				605B74B61BDE00B000393C27 /* Resources */,
 				605B74751BDDFE5A00393C27 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +163,53 @@
 				605B749B1BDDFE5B00393C27 /* Info.plist */,
 			);
 			path = NHSVMTrainProUITests;
+			sourceTree = "<group>";
+		};
+		605B74A71BDDFEDD00393C27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				605B74B31BDDFF0300393C27 /* svm_train.cpp */,
+				605B74B41BDDFF0300393C27 /* svm_train.hpp */,
+				60C265A71BE0B724003BCC2E /* NHImgMatTool.h */,
+				60C265A81BE0B724003BCC2E /* NHImgMatTool.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		605B74A81BDDFEDD00393C27 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				605B74A91BDDFEDD00393C27 /* Default-568h@2x.png */,
+				605B74AA1BDDFEDD00393C27 /* Default.png */,
+				605B74AB1BDDFEDD00393C27 /* Default@2x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		605B74AC1BDDFEDD00393C27 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				605B74AD1BDDFEDD00393C27 /* OpenCVSDK */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		605B74AD1BDDFEDD00393C27 /* OpenCVSDK */ = {
+			isa = PBXGroup;
+			children = (
+				605B74AE1BDDFEDD00393C27 /* opencv2.framework */,
+			);
+			path = OpenCVSDK;
+			sourceTree = "<group>";
+		};
+		605B74B61BDE00B000393C27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60837FBA1BE2F687009C8CED /* test.jpg */,
+				60C265AA1BE0CDB0003BCC2E /* chars_jpg.bundle */,
+				605B79101BDE011100393C27 /* Trains.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +279,7 @@
 				TargetAttributes = {
 					605B74701BDDFE5A00393C27 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4543P6M55S;
 					};
 					605B74891BDDFE5B00393C27 = {
 						CreatedOnToolsVersion = 7.0;
@@ -243,9 +316,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605B74B11BDDFEDD00393C27 /* Default@2x.png in Resources */,
+				60837FBB1BE2F687009C8CED /* test.jpg in Resources */,
+				60C265AB1BE0CDB0003BCC2E /* chars_jpg.bundle in Resources */,
+				605B79111BDE011100393C27 /* Trains.bundle in Resources */,
 				605B74841BDDFE5A00393C27 /* LaunchScreen.storyboard in Resources */,
+				605B74AF1BDDFEDD00393C27 /* Default-568h@2x.png in Resources */,
 				605B74811BDDFE5A00393C27 /* Assets.xcassets in Resources */,
 				605B747F1BDDFE5A00393C27 /* Main.storyboard in Resources */,
+				605B74B01BDDFEDD00393C27 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +349,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				605B747C1BDDFE5A00393C27 /* ViewController.m in Sources */,
+				605B747C1BDDFE5A00393C27 /* ViewController.mm in Sources */,
+				605B74B51BDDFF0300393C27 /* svm_train.cpp in Sources */,
 				605B74791BDDFE5A00393C27 /* AppDelegate.m in Sources */,
+				60C265A91BE0B724003BCC2E /* NHImgMatTool.mm in Sources */,
 				605B74761BDDFE5A00393C27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +494,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHSVMTrainPro/libs/OpenCVSDK",
+				);
 				INFOPLIST_FILE = NHSVMTrainPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSVMTrainPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NHSVMTrainPro/libs/OpenCVSDK",
+				);
 				INFOPLIST_FILE = NHSVMTrainPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHSVMTrainPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +591,7 @@
 				605B74A01BDDFE5B00393C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605B74A11BDDFE5B00393C27 /* Build configuration list for PBXNativeTarget "NHSVMTrainProTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +600,7 @@
 				605B74A31BDDFE5B00393C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		605B74A41BDDFE5B00393C27 /* Build configuration list for PBXNativeTarget "NHSVMTrainProUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +609,7 @@
 				605B74A61BDDFE5B00393C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
